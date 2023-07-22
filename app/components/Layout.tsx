@@ -1,6 +1,5 @@
 import type { PropsWithChildren } from "react";
 import {
-  BiBookAlt,
   BiCart,
   BiEnvelope,
   BiLogoTelegram,
@@ -16,15 +15,21 @@ export function Layout(props: PropsWithChildren) {
           <div className="flex flex-row">
             <ul className="menu menu-horizontal p-1">
               <li>
-                <a className="flex flex-row gap-2 items-center">
+                <a
+                  href="mailto:metada.id@gmail.com"
+                  className="flex flex-row gap-2 items-center"
+                >
                   <BiEnvelope size={18} />
                   <span className="text-base-content">metada.id@gmail.com</span>
                 </a>
               </li>
               <li>
-                <a className="flex flex-row gap-2 items-center">
+                <a
+                  href="https://wa.me/6285781069951"
+                  className="flex flex-row gap-2 items-center"
+                >
                   <BiLogoWhatsapp size={18} />
-                  <span className="text-base-content">08512345678</span>
+                  <span className="text-base-content">0857-8106-9951</span>
                 </a>
               </li>
             </ul>
@@ -60,6 +65,12 @@ export function Layout(props: PropsWithChildren) {
               </ul>
             </div>
             <a className="btn btn-ghost normal-case text-xl text-primary">
+              <img
+                src="/metada-logo.png"
+                width={32}
+                height={32}
+                alt="Metada Logo"
+              />
               METADA
             </a>
           </div>
@@ -129,7 +140,12 @@ export function Layout(props: PropsWithChildren) {
       {props.children}
       <footer className="footer p-10 bg-neutral text-neutral-content">
         <div>
-          <BiBookAlt size={52} />
+          <img
+            src="/metada-logo.png"
+            width={48}
+            height={48}
+            alt="Metada Logo"
+          />
           <p>
             <strong className="text-lg">METADA</strong>
             <br />

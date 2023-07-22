@@ -294,8 +294,8 @@ export default function Index() {
           <h2 className="text-base-content text-3xl font-bold text-center font-mono">
             Hubungi Kami
           </h2>
-          <div className="mt-8 flex flex-row gap-8">
-            <div className="w-1/2">
+          <div className="mt-8 flex flex-col sm:flex-row gap-8">
+            <div className="sm:w-1/2">
               <iframe
                 title="Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39827.85751019618!2d109.29460045570065!3d-7.466226870401402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655b7427ba30ed%3A0xcdb1728b68574bc4!2sMa&#39;had%20Al%20Faruq%20As%20Salafy%20Kalibagor!5e0!3m2!1sen!2sid!4v1690017485800!5m2!1sen!2sid"
@@ -308,7 +308,7 @@ export default function Index() {
                 className="border border-base-300 rounded-lg"
               ></iframe>
             </div>
-            <div className="w-1/2">
+            <div className="sm:w-1/2">
               <h3 className="text-base-content text-2xl font-semibold mt-4">
                 Kontak
               </h3>
